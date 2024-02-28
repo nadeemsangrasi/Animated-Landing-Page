@@ -136,7 +136,6 @@ function page3Animation(){
             scroller:"body",
             start:"top 70%",
             end:"bottom 90%",
-            markers:true,
             scrub:true
         }
     })
