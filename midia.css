@@ -1,0 +1,215 @@
+@media  (max-width:1174px) {
+    #navbar #nav-links{
+        padding-left: 0px;
+    
+        
+    }
+    #page-1 h1{
+        width: 100%;
+    }    
+}
+@media  (max-width:929px) {
+    #navbar #nav-links{
+        padding-left: 0px;
+    
+        
+    }
+    #navbar #nav-links ul li a{
+        font-size: 17px;
+    }
+    #navbar #nav-links input{
+        width: 120px;
+        font-size: 12px;
+    }
+
+    
+}
+@media  (max-width:785px) {
+    #navbar #nav-links{
+        display: block;
+        margin:auto;
+    }
+    #navbar #nav-links ul{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #navbar{
+        min-height: 100%;
+    }
+    .menu{
+        position: fixed;
+        right: 0%;
+        top: 5%;
+        
+    }
+
+    #navbar #nav-links input{
+        width: 220px;
+        font-size: 17px;
+        
+    }
+    #nav-links .search-container{
+        margin-top: 45px;
+    }
+    #navbar #nav-links ul li a{
+        font-size: 25px;
+    }
+    #navbar #nav-links ul {
+        gap: 90px;
+    }   
+    #page-1 h1{
+        width: 100%;
+        font-size: 4rem;
+    } 
+
+    #page-1 .small-head button{
+        font-size: 12px;
+        padding: 0px 8px;
+        border-radius: 22px;
+    }
+    #page-1 .about{
+    
+        grid-template-columns: 2fr  ;
+    }
+    #page-1 .about .about-part-2{
+        padding-top: 30px;
+        border-top: 2px solid black;
+        border-left: none;
+    }
+    
+    #page-2{
+        display: grid;
+        grid-template-columns: 2fr ;
+        
+    }
+
+    #page-3 .pt-1{   
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #page-3 .pt-1 .right{
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    #page-3 .pt-2{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    #page-3 .pt-2 .box h2,span{
+        margin: 30px 0px;
+    }
+    #page-3 .pt-2 .box{
+        padding: 25px 0px;
+    }
+    #page-3 .pt-2 .box h1,p{
+        padding: 10px 0px;
+    }
+    #footer .ft-pt-3{
+        gap: 30px;
+
+        
+    }
+}
+@media  (max-width:482px){
+
+    #navbar{
+        height: 100%;
+    }
+    #navbar #nav-links ul {
+        gap: 100px;
+    }
+    #page-1 h1{
+        font-size:2.7rem;
+
+    }
+    #page-1 .small-head button{
+        font-size: 10px;
+        padding: 0px 8px;
+        border-radius: 20px;
+        margin-top: 10px;
+        
+    }
+
+    #page-1 .about-2{
+        grid-template-columns:  2fr ;
+        border-bottom:  none;
+    }
+    #page-1 .about .about-part-1 h2{
+    font-size: 2.7rem;
+    width: 100%;
+    line-height: 56px;
+    letter-spacing: 2px;
+    }
+    #page-1 .about-2 .about-2-part-2{
+        margin-top: 0px;
+        padding:0px 20px ;
+    }
+    #page-1 .about-2 .about-2-part-3{
+            height: 140px;
+            margin-top: 27px;
+            border-left:  none;   
+            padding: 25px 20px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid black;
+            
+        
+    }
+    
+    #page-2{
+        display: grid;
+        grid-template-columns: 2fr ;
+        
+    }
+ #page-2 .pg-2-pt-2 .box h1{
+    font-size: 1.5rem;
+ }   
+ #page-2 .pg-2-pt-2 .box p{
+    font-size: 1rem;
+ }   
+ #page-2 .pg-2-pt-2 .box  .profile{
+    margin-top: 10px;
+ }
+ #page-2 .pg-2-pt-2 .box  .profile img{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    margin-right: 20px;
+ }
+ #page-2 .pg-2-pt-2 .box  .profile h4{
+    font-size: 15px;
+ }
+ #page-2 .pg-2-pt-2 .box  .profile p{
+    font-size: 14px;
+ }
+
+ #page-2 .pg-2-pt-2 .part-1{
+    flex-direction: column;
+    padding: 20px 0px;
+    border-top: 2px solid black;
+    margin: 0px 20px;
+}
+#page-2 .pg-2-pt-2 .part-2{
+    flex-direction: column;
+    border-top: 2px solid black;
+    margin: 20px 20px;
+    padding: 20px 0px;
+    border-top:  2px solid black;
+
+}
+#page-2 .pg-2-pt-2 .part-1  .box:nth-child(2){
+    border-top: 2px solid black;
+    border-left: none;
+}
+#page-2 .pg-2-pt-2 .part-2  .box:nth-child(2){
+    border-top: 2px solid black;
+    border-left: none;
+}
+
+ #footer>h1{
+    font-size: 1rem;
+ }
+}
